@@ -29,7 +29,7 @@ More in [**daily-projects**](https://github.com/Atharv1414/daily-projects), a gr
 
 ## Toolkit
 
-**Languages:** Python · SQL · C# · C++ · Dart
-\**Data:** DuckDB · dbt · MySQL · SQLite · pandas · Plotly
-\**AI:** Claude tool use · RAG · LLM evaluation · YOLOv8 · Azure AI Search
-\**Engineering:** Flask · FastAPI · ASP.NET Core · Flutter · Docker · GitHub Actions · pytest · AI-assisted development with Claude Code
+- **Languages:** Python · SQL · C# · C++ · Dart
+- **Data:** DuckDB · dbt · MySQL · SQLite · pandas · Plotly
+- **AI:** Claude tool use · RAG · LLM evaluation · YOLOv8 · Azure AI Search
+- **Engineering:** Flask · FastAPI · ASP.NET Core · Flutter · Docker · GitHub Actions · pytest · AI-assisted development with Claude Code
