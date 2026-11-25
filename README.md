@@ -65,14 +65,14 @@ The New York, A/B test and retail projects use real public data. Other projects 
 <!-- latest:start -->
 | Added | Project | Role | Built with |
 |---|---|---|---|
+| 25 Nov 2026 | [Fixed-Rate Mortgage Exits](https://github.com/Atharv1414/daily-projects/tree/main/fixed-rate-mortgage-exits) | Data Analyst | Python, pandas, competing risks |
+| 25 Nov 2026 | [Thornwick Bells](https://github.com/Atharv1414/daily-projects/tree/main/thornwick-bells) | Front-End Engineer | React 19, JavaScript, SCSS |
+| 25 Nov 2026 | [Contactless Fare Engine](https://github.com/Atharv1414/daily-projects/tree/main/contactless-fare-engine) | Software Engineer | C# / .NET 10, ASP.NET Core minimal APIs, EF Core + SQLite |
 | 24 Nov 2026 | [Azure Handbook RAG](https://github.com/Atharv1414/daily-projects/tree/main/azure-handbook-rag) | AI Engineer | Python, Azure AI Search, Azure AI Foundry |
 | 24 Nov 2026 | [Damp & Mould Repairs Business Case](https://github.com/Atharv1414/daily-projects/tree/main/damp-mould-repairs-business-case) | Business Analyst | Python, process mining + conformance checking |
 | 24 Nov 2026 | [Law Firm Profitability BI](https://github.com/Atharv1414/daily-projects/tree/main/law-firm-profitability-bi) | BI Developer | Python, DuckDB, price-volume-mix |
-| 24 Nov 2026 | [Factory Telemetry Historian](https://github.com/Atharv1414/daily-projects/tree/main/factory-telemetry-historian) | Data Engineer | C++20, CMake, GoogleTest |
-| 23 Nov 2026 | [E-commerce Marketing Attribution](https://github.com/Atharv1414/daily-projects/tree/main/ecommerce-marketing-attribution) | Data Analyst | SQL, sessionisation, ASOF identity stitching |
-| 23 Nov 2026 | [Streaming QoE Pipeline](https://github.com/Atharv1414/daily-projects/tree/main/streaming-qoe-pipeline) | Data Engineer | Python, event-time stream processing |
 
-14 projects so far, covering 7 roles.
+17 projects so far, covering 8 roles.
 <!-- latest:end -->
 
 See all of them in [**daily-projects**](https://github.com/Atharv1414/daily-projects).
