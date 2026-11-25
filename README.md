@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Atharv Patil. Software, data and AI engineering." width="100%">
+  <img src="assets/banner-light.svg" alt="Atharv Patil. Software, Data and AI engineering." width="100%">
 </picture>
 
 I build tested, documented projects that start from a real business problem, from data pipelines and BI marts to LLM agents and mobile apps. The write-ups report what was measured and where each project falls short.
