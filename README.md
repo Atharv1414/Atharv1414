@@ -30,7 +30,7 @@ I build software, data and AI projects that solve real business problems. Each p
 
 | Project | What it does | Built with |
 |---|---|---|
-| [**NYC Congestion Pricing**](https://github.com/Atharv1414/nyc-congestion-pricing-impact) | Checks whether New York's new road charge made traffic faster, using 128 million real taxi trips. Compared with nearby areas, taxis in the zone were about 3.1% faster in 2025, but most of the gain had faded by the end of the year. | Python, SQL, DuckDB |
+| [**NYC Congestion Pricing**](https://github.com/Atharv1414/nyc-congestion-pricing-impact) | Checks whether New York's new road charge made traffic faster, using 128 million real taxi trips. Compared with other parts of Manhattan, taxis in the zone were about 3.1% faster in 2025, but most of the gain had faded by the end of the year. | Python, SQL, DuckDB |
 | [**A/B Test Study**](https://github.com/Atharv1414/ab-test-meta-analysis) | Studies 32,487 real A/B tests. Winners looked 61% better in their own test but were only 27% better when checked again. | Python, statistics |
 | [**Retail Customer Value**](https://github.com/Atharv1414/retail-customer-value) | Predicts which customers will spend the most. The top-rated 20% made up 76% of these customers' spending over the next six months. | SQL, dbt, Python |
 
