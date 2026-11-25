@@ -1,79 +1,97 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Atharv Patil. Software, Data and AI engineering." width="100%">
+  <img src="assets/banner-light.svg" alt="Atharv Patil. Software, Data and AI Engineering." width="100%">
 </picture>
 
-I build tested, documented projects that start from a real business problem, from data pipelines and BI marts to LLM agents and mobile apps. The write-ups report what was measured and where each project falls short.
+I build software, data and AI projects that solve real business problems. Each project is tested, explains how it works, and is open about its limits.
 
 [![tests](https://github.com/Atharv1414/daily-projects/actions/workflows/tests.yml/badge.svg)](https://github.com/Atharv1414/daily-projects/actions/workflows/tests.yml)
 
-## Featured work
+## Featured projects
 
-| Project | What it does | Highlight | Built with |
-|---|---|---|---|
-| [**Workout Buddy**](https://github.com/Atharv1414/workout_buddy) | Exercise coach for iOS and Android that counts reps and scores form | Pose detection runs on the device, with no video upload | Flutter, Dart, ML Kit |
-| [**Withyreach Hotel**](https://github.com/Atharv1414/withyreach-hotel) · [live](https://atharv1414.github.io/withyreach-hotel/) | Hotel website whose sky, colours and theme follow the real sun | 42 unit and component tests, 14 browser tests | React, JavaScript, SCSS |
-| [**Lantern Hall**](https://github.com/Atharv1414/lantern-hall) · [live](https://atharv1414.github.io/lantern-hall/) | Theatre box office where a seat can never be sold twice | 60 buyers race for 24 seats in the tests | React, FastAPI, MongoDB |
-| [**Open Desk**](https://github.com/Atharv1414/ai-support-desk) · [live](https://atharv1414.github.io/ai-support-desk/) | AI support desk with a fine-tuned model, cited answers and a guarded agent | The release gate rejected my own fine-tuned model, and the write-up says why | React, Python, LoRA, RAG, MySQL |
-| [**NYC Congestion Pricing Impact**](https://github.com/Atharv1414/nyc-congestion-pricing-impact) | Tests whether New York's congestion charge sped up traffic, on 128 million real taxi trips | +3.1% in 2025, fading from +5.9% to +1.4%, with a placebo year that tests the method | Python, DuckDB, causal inference |
-| [**A/B Test Meta-Analysis**](https://github.com/Atharv1414/ab-test-meta-analysis) | Learns how to run experiments from 32,487 real A/B tests | Winners claim +61% and deliver +27%; shrinkage predicts +26% | Python, empirical Bayes |
-| [**Retail Customer Value**](https://github.com/Atharv1414/retail-customer-value) | Warehouse and customer value forecasts on a million real invoice lines | Top-rated fifth brought 76% of the next six months' revenue | dbt, DuckDB, Python |
-| [**Azure Handbook RAG**](https://github.com/Atharv1414/azure-handbook-rag) | Answers questions about company documents with checked citations | 30 tests and an evaluation set; not yet deployed to live Azure | Python, Azure AI Search, Azure AI Foundry |
-| [**Broadband Support Agent**](https://github.com/Atharv1414/daily-projects/tree/main/broadband-support-agent) | Support agent with policy rules, human approval and injection guardrails | 26-case evaluation suite graded on actions taken | Python, Claude tool use, Pydantic |
-| [**Traffic Light Optimisation**](https://github.com/Atharv1414/traffic-light-optimisation) | Vision pipeline that adapts signal timings to queues | In simulation: 0% to 28.9% more vehicles served, 12% to 93% less delay | YOLOv8, OpenCV |
-| [**Web Scraping Data Pipeline**](https://github.com/Atharv1414/daily-projects/tree/main/web-scraping-pipeline) | Fault-tolerant ETL with retries, validation and quarantine | Live run loaded 1,100 records in 52 s | Python, MySQL |
-| [**Warehouse Stock Reservation API**](https://github.com/Atharv1414/warehouse-stock-reservation-api) | Holds stock safely when many orders compete for it | 3,000-reservation load test with no unit oversold | C#, ASP.NET Core, EF Core |
-| [**Factory Telemetry Historian**](https://github.com/Atharv1414/factory-telemetry-historian) | Time-series storage engine with crash recovery | 6.1x compression: 2.63 bytes per sample against 16 raw | C++20, CMake |
+### Websites and apps
 
-The congestion pricing, A/B test and retail projects use real public data. Other datasets are synthetic unless a project says otherwise.
+| Project | What it does | Built with |
+|---|---|---|
+| [**Withyreach Hotel**](https://github.com/Atharv1414/withyreach-hotel)<br>[See it live](https://atharv1414.github.io/withyreach-hotel/) | A website for a made-up hotel. Its colours change through the day to match the real position of the sun. | React, JavaScript, SCSS |
+| [**Lantern Hall**](https://github.com/Atharv1414/lantern-hall)<br>[See it live](https://atharv1414.github.io/lantern-hall/) | A theatre booking site. Visitors pick their seats, and no seat can be sold twice, even when many people book at once. | React, FastAPI, MongoDB |
+| [**Workout Buddy**](https://github.com/Atharv1414/workout_buddy) | A phone app that counts your exercise reps and scores your form. Video stays on the phone. | Flutter, Dart, ML Kit |
 
-## See it running
+### AI
+
+| Project | What it does | Built with |
+|---|---|---|
+| [**Open Desk**](https://github.com/Atharv1414/ai-support-desk)<br>[See it live](https://atharv1414.github.io/ai-support-desk/) | An AI helper for customer support. It finds answers, shows where they came from, and asks a person before giving a refund. | React, Python, MySQL, RAG, LoRA |
+| [**Azure Handbook RAG**](https://github.com/Atharv1414/azure-handbook-rag) | Answers questions about company documents and links each answer to its source. Built and tested, not yet run on live Azure. | Python, Azure AI Search, Azure AI Foundry |
+| [**Broadband Support Agent**](https://github.com/Atharv1414/daily-projects/tree/main/broadband-support-agent) | An AI agent for a broadband company. It follows set rules and needs a person's approval for important actions. | Python, Claude, Pydantic |
+| [**Traffic Light Optimisation**](https://github.com/Atharv1414/traffic-light-optimisation) | Counts cars on camera and adjusts the green lights. In simulation it cut delays by 12% to 93%. | Python, YOLOv8, OpenCV |
+
+### Data analysis
+
+| Project | What it does | Built with |
+|---|---|---|
+| [**NYC Congestion Pricing**](https://github.com/Atharv1414/nyc-congestion-pricing-impact) | Checks whether New York's new road charge made traffic faster, using 128 million real taxi trips. Speeds rose 3.1% in 2025, but most of the gain had faded by the end of the year. | Python, SQL, DuckDB |
+| [**A/B Test Study**](https://github.com/Atharv1414/ab-test-meta-analysis) | Studies 32,487 real A/B tests. Winners looked 61% better in their own test but were only 27% better when checked again. | Python, statistics |
+| [**Retail Customer Value**](https://github.com/Atharv1414/retail-customer-value) | Predicts which customers will spend the most. The top-rated 20% brought in 76% of sales over the next six months. | SQL, dbt, Python |
+
+### Data and software engineering
+
+| Project | What it does | Built with |
+|---|---|---|
+| [**Web Scraping Pipeline**](https://github.com/Atharv1414/daily-projects/tree/main/web-scraping-pipeline) | Collects data from websites, checks it and stores it. It keeps going when a page fails. A live run loaded 1,100 records in 52 seconds. | Python, MySQL |
+| [**Warehouse Stock API**](https://github.com/Atharv1414/warehouse-stock-reservation-api) | Reserves stock when many orders arrive together. A test with 3,000 reservations never sold more than was in stock. | C#, ASP.NET Core |
+| [**Factory Data Store**](https://github.com/Atharv1414/factory-telemetry-historian) | Stores readings from factory machines in about one sixth of the space, and recovers safely after a crash. | C++ |
+
+The New York, A/B test and retail projects use real public data. Other projects use made-up data unless they say otherwise.
+
+## Screenshots
 
 | [Withyreach Hotel](https://atharv1414.github.io/withyreach-hotel/) | [Lantern Hall](https://atharv1414.github.io/lantern-hall/) |
 |---|---|
 | [<img src="https://raw.githubusercontent.com/Atharv1414/withyreach-hotel/main/docs/home-dusk.png" alt="Hotel home page at dusk over a reedbed" width="400">](https://atharv1414.github.io/withyreach-hotel/) | [<img src="https://raw.githubusercontent.com/Atharv1414/lantern-hall/main/docs/seats.png" alt="Theatre seat map with three seats chosen" width="400">](https://atharv1414.github.io/lantern-hall/) |
-| Click to open the live site | Click to open the live site (demo mode) |
+| Click the picture to open the website | Click the picture to open the demo website |
 
-**Traffic Light Optimisation:** identical simulated traffic, with fixed timing on the left. On the right, YOLOv8 counts the queues and sets the greens.
+**Traffic Light Optimisation:** both sides have the same simulated traffic. The left side uses fixed timings. The right side counts the cars and changes the lights to suit.
 
 [![Two simulated junctions side by side. The adaptive one serves more vehicles and has a shorter queue.](https://raw.githubusercontent.com/Atharv1414/traffic-light-optimisation/main/docs/demo.gif)](https://github.com/Atharv1414/traffic-light-optimisation)
 
-| [Grocery Retail BI Mart](https://github.com/Atharv1414/daily-projects/tree/main/grocery-retail-bi-mart) | [E-commerce Marketing Attribution](https://github.com/Atharv1414/daily-projects/tree/main/ecommerce-marketing-attribution) |
+| [Grocery Sales Dashboard](https://github.com/Atharv1414/daily-projects/tree/main/grocery-retail-bi-mart) | [Marketing Results](https://github.com/Atharv1414/daily-projects/tree/main/ecommerce-marketing-attribution) |
 |---|---|
 | <img src="https://raw.githubusercontent.com/Atharv1414/daily-projects/main/grocery-retail-bi-mart/docs/images/dashboard.png" alt="Trading dashboard with KPI cards and monthly sales against target" width="400"> | <img src="https://raw.githubusercontent.com/Atharv1414/daily-projects/main/ecommerce-marketing-attribution/docs/charts/roas_by_model.png" alt="Bar chart showing that return on ad spend by channel depends on the attribution model" width="400"> |
-| Star schema, semantic layer and row-level security, with 18 reconciliation checks | dbt on DuckDB: six attribution models compared, with 79 dbt tests |
+| A sales dashboard where each person sees only the data they are allowed to | Compares six ways to work out which adverts led to sales |
 
 ## Latest projects
 
 <!-- latest:start -->
 | Added | Project | Role | Built with |
 |---|---|---|---|
-| 24 Nov 2026 | [Azure Handbook RAG](https://github.com/Atharv1414/daily-projects/tree/main/azure-handbook-rag) | AI Engineer | Python, Azure AI Search, Azure AI Foundry, Entra ID, Bicep |
+| 24 Nov 2026 | [Azure Handbook RAG](https://github.com/Atharv1414/daily-projects/tree/main/azure-handbook-rag) | AI Engineer | Python, Azure AI Search, Azure AI Foundry |
 | 24 Nov 2026 | [Damp & Mould Repairs Business Case](https://github.com/Atharv1414/daily-projects/tree/main/damp-mould-repairs-business-case) | Business Analyst | Python, process mining + conformance checking |
-| 24 Nov 2026 | [Law Firm Profitability BI](https://github.com/Atharv1414/daily-projects/tree/main/law-firm-profitability-bi) | BI Developer | Python, DuckDB, price-volume-mix, FastAPI, Plotly |
-| 24 Nov 2026 | [Factory Telemetry Historian](https://github.com/Atharv1414/daily-projects/tree/main/factory-telemetry-historian) | Data Engineer | C++20, CMake, GoogleTest, WAL crash recovery |
+| 24 Nov 2026 | [Law Firm Profitability BI](https://github.com/Atharv1414/daily-projects/tree/main/law-firm-profitability-bi) | BI Developer | Python, DuckDB, price-volume-mix |
+| 24 Nov 2026 | [Factory Telemetry Historian](https://github.com/Atharv1414/daily-projects/tree/main/factory-telemetry-historian) | Data Engineer | C++20, CMake, GoogleTest |
 | 23 Nov 2026 | [E-commerce Marketing Attribution](https://github.com/Atharv1414/daily-projects/tree/main/ecommerce-marketing-attribution) | Data Analyst | SQL, sessionisation, ASOF identity stitching |
 | 23 Nov 2026 | [Streaming QoE Pipeline](https://github.com/Atharv1414/daily-projects/tree/main/streaming-qoe-pipeline) | Data Engineer | Python, event-time stream processing |
 
-14 projects in the series so far: Data Engineer 3 · Agentic AI Engineer 2 · BI Developer 2 · Business Analyst 2 · Data Analyst 2 · Software Engineer 2 · AI Engineer 1.
+14 projects so far, covering 7 roles.
 <!-- latest:end -->
 
-More in [**daily-projects**](https://github.com/Atharv1414/daily-projects), a growing collection across software, data, analytics and AI.
+See all of them in [**daily-projects**](https://github.com/Atharv1414/daily-projects).
 
-## By role
+## More projects by role
 
-- **Front end and full stack:** [Withyreach Hotel](https://github.com/Atharv1414/withyreach-hotel) · [Lantern Hall](https://github.com/Atharv1414/lantern-hall) · [Open Desk](https://github.com/Atharv1414/ai-support-desk)
-- **Software engineering:** [Candid Blog](https://github.com/Atharv1414/daily-projects/tree/main/candid-blog) · [Expense Tracker](https://github.com/Atharv1414/daily-projects/tree/main/expense-tracker-cli) · [French Lingo](https://github.com/Atharv1414/daily-projects/tree/main/french-lingo)
-- **AI and agents:** [Open Desk](https://github.com/Atharv1414/ai-support-desk) · [Hotel Revenue SQL Agent](https://github.com/Atharv1414/daily-projects/tree/main/hotel-revenue-sql-agent) · [Azure Handbook RAG](https://github.com/Atharv1414/azure-handbook-rag)
-- **Data engineering:** [Smart Meter Lakehouse](https://github.com/Atharv1414/daily-projects/tree/main/smart-meter-lakehouse) · [Streaming QoE Pipeline](https://github.com/Atharv1414/daily-projects/tree/main/streaming-qoe-pipeline)
-- **Data analysis:** [NYC Congestion Pricing](https://github.com/Atharv1414/nyc-congestion-pricing-impact) · [A/B Test Meta-Analysis](https://github.com/Atharv1414/ab-test-meta-analysis) · [Retail Customer Value](https://github.com/Atharv1414/retail-customer-value) · [NHS Outpatient DNA Analysis](https://github.com/Atharv1414/daily-projects/tree/main/nhs-outpatient-dna-analysis) · [E-commerce Marketing Attribution](https://github.com/Atharv1414/daily-projects/tree/main/ecommerce-marketing-attribution)
-- **Business intelligence:** [Grocery Retail BI Mart](https://github.com/Atharv1414/daily-projects/tree/main/grocery-retail-bi-mart) · [Law Firm Profitability BI](https://github.com/Atharv1414/daily-projects/tree/main/law-firm-profitability-bi)
-- **Business analysis:** [Motor Claims Business Case](https://github.com/Atharv1414/daily-projects/tree/main/motor-claims-fnol-business-case) · [Damp and Mould Repairs](https://github.com/Atharv1414/daily-projects/tree/main/damp-mould-repairs-business-case)
+- **Software engineer:** [Candid Blog](https://github.com/Atharv1414/daily-projects/tree/main/candid-blog) · [Expense Tracker](https://github.com/Atharv1414/daily-projects/tree/main/expense-tracker-cli) · [French Lingo](https://github.com/Atharv1414/daily-projects/tree/main/french-lingo)
+- **AI engineer:** [Hotel Revenue SQL Agent](https://github.com/Atharv1414/daily-projects/tree/main/hotel-revenue-sql-agent)
+- **Data engineer:** [Smart Meter Lakehouse](https://github.com/Atharv1414/daily-projects/tree/main/smart-meter-lakehouse) · [Streaming Quality Pipeline](https://github.com/Atharv1414/daily-projects/tree/main/streaming-qoe-pipeline)
+- **Data analyst:** [NHS Missed Appointments](https://github.com/Atharv1414/daily-projects/tree/main/nhs-outpatient-dna-analysis) · [Marketing Results](https://github.com/Atharv1414/daily-projects/tree/main/ecommerce-marketing-attribution)
+- **BI developer:** [Grocery Sales Dashboard](https://github.com/Atharv1414/daily-projects/tree/main/grocery-retail-bi-mart) · [Law Firm Profitability](https://github.com/Atharv1414/daily-projects/tree/main/law-firm-profitability-bi)
+- **Business analyst:** [Motor Claims Business Case](https://github.com/Atharv1414/daily-projects/tree/main/motor-claims-fnol-business-case) · [Damp and Mould Repairs](https://github.com/Atharv1414/daily-projects/tree/main/damp-mould-repairs-business-case)
 
-## Toolkit
+## Skills
 
 - **Languages:** Python · SQL · JavaScript · HTML · SCSS · C# · C++ · Dart
-- **Front end:** React · Vite · Vitest · Playwright · accessibility testing with axe
-- **Data:** pandas · NumPy · DuckDB · dbt · MySQL · MongoDB · SQLite · Plotly
-- **AI:** Claude tool use · agents with guardrails · RAG · LoRA fine-tuning · MLOps · LLM evaluation · scikit-learn · PyTorch · YOLOv8 · Azure AI Search
-- **Engineering:** Flask · FastAPI · ASP.NET Core · Flutter · Docker · GitHub Actions · pytest · AI-assisted development with Claude Code
+- **Websites:** React · Vite · Flask · FastAPI · ASP.NET Core
+- **Mobile:** Flutter
+- **Data:** pandas · NumPy · dbt · DuckDB · MySQL · MongoDB · SQLite · Plotly
+- **AI:** AI agents · RAG · LLM fine-tuning · MLOps · scikit-learn · PyTorch · YOLOv8 · Claude · Azure AI Search
+- **Testing and delivery:** pytest · Vitest · Playwright · Docker · GitHub Actions
+- **Ways of working:** AI-assisted development with Claude Code

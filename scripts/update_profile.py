@@ -36,12 +36,12 @@ def parse(markdown: str) -> list[dict]:
     return sorted(rows, key=lambda r: r["n"])
 
 
-def short_stack(stack: str, limit: int = 64) -> str:
-    """The stack without bracketed detail, cut at a comma and never inside a word."""
+def short_stack(stack: str, limit: int = 64, items: int = 3) -> str:
+    """The first few tools, without bracketed detail, never cut inside a word."""
     plain = re.sub(r"\s*\([^()]*\)", "", stack)
     parts = [p.strip() for p in re.split(r"[,;:]", plain) if p.strip()]
     out = parts[0]
-    for p in parts[1:]:
+    for p in parts[1:items]:
         if len(out) + len(p) + 2 > limit:
             break
         out += f", {p}"
@@ -55,8 +55,9 @@ def render(rows: list[dict]) -> str:
     lines += [
         f"| {r['date'].day} {r['date']:%b %Y} | [{r['title']}]({TREE}{r['folder']}) "
         f"| {r['role']} | {short_stack(r['stack'])} |" for r in latest]
-    mix = " · ".join(f"{role} {n}" for role, n in sorted(roles.items(), key=lambda x: (-x[1], x[0])))
-    lines += ["", f"{len(rows)} projects in the series so far: {mix}."]
+    count = f"{len(rows)} project{'s' if len(rows) != 1 else ''}"
+    areas = f"{len(roles)} role{'s' if len(roles) != 1 else ''}"
+    lines += ["", f"{count} so far, covering {areas}."]
     return "\n".join(lines)
 
 

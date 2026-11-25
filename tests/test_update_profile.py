@@ -29,7 +29,7 @@ def test_reads_only_the_numbered_table():
 def test_newest_first_with_counts():
     out = u.render(u.parse(TABLE)).splitlines()
     assert out[2].startswith("| 21 Nov 2026 | [Hotel Agent](https://github.com/")
-    assert out[-1] == "2 projects in the series so far: AI Engineer 1 · Software Engineer 1."
+    assert out[-1] == "2 projects so far, covering 2 roles."
 
 
 def test_stack_is_cut_cleanly():
