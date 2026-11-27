@@ -5,6 +5,8 @@
 
 I build software, data and AI projects that solve real business problems. Each project is tested, explains how it works, and is open about its limits.
 
+**Portfolio website: [atharv1414.github.io](https://atharv1414.github.io/)**. Case studies, a daily build log and a searchable list of every project.
+
 [![tests](https://github.com/Atharv1414/daily-projects/actions/workflows/tests.yml/badge.svg)](https://github.com/Atharv1414/daily-projects/actions/workflows/tests.yml)
 
 ## Featured projects
