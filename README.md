@@ -67,14 +67,14 @@ The New York, A/B test and retail projects use real public data. Other projects 
 <!-- latest:start -->
 | Added | Project | Role | Built with |
 |---|---|---|---|
+| 28 Nov 2026 | [Planning Casework MCP Server and Agent](https://github.com/Atharv1414/daily-projects/tree/main/planning-casework-mcp) | Agentic AI Engineer | Python, MCP SDK, Claude tool use |
+| 28 Nov 2026 | [Equities Matching Engine](https://github.com/Atharv1414/daily-projects/tree/main/equities-matching-engine) | Software Engineer | C++20, CMake, GoogleTest |
+| 28 Nov 2026 | [Gym Class Booking API](https://github.com/Atharv1414/daily-projects/tree/main/gym-class-booking-api) | Software Engineer | Python, FastAPI, SQLAlchemy 2.0 + SQLite |
 | 27 Nov 2026 | [Energy Message Triage: LoRA on a Tiny Transformer](https://github.com/Atharv1414/daily-projects/tree/main/energy-triage-lora) | Machine Learning Engineer | Python, PyTorch, GPT-style model and BPE trained from scratch |
 | 27 Nov 2026 | [Kestrel & Lock: Narrowboat Holidays](https://github.com/Atharv1414/daily-projects/tree/main/narrowboat-hire) | Front-End Engineer | React 19, JavaScript, SCSS |
 | 27 Nov 2026 | [Streaming Feature-Flag Service](https://github.com/Atharv1414/daily-projects/tree/main/streaming-feature-flags) | Software Engineer | C# / .NET 10, ASP.NET Core minimal APIs, EF Core + SQLite |
-| 26 Nov 2026 | [Last-Mile Delivery BI](https://github.com/Atharv1414/daily-projects/tree/main/last-mile-delivery-bi) | BI Developer | Python, DuckDB star schema, SQL window functions + GROUPING SETS |
-| 26 Nov 2026 | [Multi-Academy Trust Attendance BI](https://github.com/Atharv1414/daily-projects/tree/main/trust-attendance-bi) | BI Developer | Python, DuckDB SQL, semantic layer with aggregate navigator |
-| 26 Nov 2026 | [Hollinbeck Harriers: Fell Race Results](https://github.com/Atharv1414/daily-projects/tree/main/fell-race-results) | Front-End Engineer | React 19, JavaScript, SCSS |
 
-24 projects so far, covering 9 roles.
+27 projects so far, covering 9 roles.
 <!-- latest:end -->
 
 See all of them in [**daily-projects**](https://github.com/Atharv1414/daily-projects).
