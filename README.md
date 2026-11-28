@@ -11,6 +11,12 @@ I build software, data and AI projects that solve real business problems. Each p
 
 ## Featured projects
 
+### Open-source tools
+
+| Project | What it does | Built with |
+|---|---|---|
+| [**rowdelta**](https://github.com/Atharv1414/rowdelta) | Shows exactly what changed between two versions of a table: added, removed and changed rows, and the old and new value of each changed column. Works on CSV, Parquet, JSON, SQLite or a file at a git revision, compares 10 million rows in about 7 seconds on a laptop, and comes with a GitHub Action for pull requests. | Python, DuckDB, SQL, GitHub Actions |
+
 ### Websites and apps
 
 | Project | What it does | Built with |
